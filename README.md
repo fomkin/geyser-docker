@@ -18,11 +18,8 @@ You can configure Geyser using environment variables in Docker (`-e VAR:VALUE`).
 
 Also you may attach volume with `config.yml` (`- v hostdir_with_config:/geyser/config`) however environment variables have priority.
 
-## Build
+## See also
 
-Find latest successfull build in [Gayser CI](https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/).
-
-Run:
-```bash
-BUILD_NUMBER="714"; docker build --build-arg BUILD_NUMBER=$BUILD_NUMBER -t fomkin/geyser:$BUILD_NUMBER -t fomkin/geyser:latest .
-```
+* [Docker-compose file to run Minecraft Java Server and Geyser MC](https://gist.github.com/fomkin/a3b2f2ebaf73ea5497f491b508e2a6e2)
+* [Minecraft Server with Docker](https://hub.docker.com/r/itzg/minecraft-server)
+* [Geyser](https://geysermc.org/)
